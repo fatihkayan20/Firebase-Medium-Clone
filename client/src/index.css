@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer
+}
+
+.MuiDialog-paper {
+  width: 100%;
+  height: 100vh;
+}
+
+.MuiDialogContent-root {
+  overflow: hidden !important;
+}
+
+.signup-btn:hover,
+.signup-btn {
+  background-color: black !important;
+  color: white !important;
+  margin-top: 10px !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.sticky {
+  position: sticky !important;
+  top: 100px !important
+}
